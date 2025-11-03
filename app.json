@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "PanahON - Bagyo Watch PH",
+    "slug": "panahon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1e3a8a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.panahon.bagyowatch",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to show weather and typhoon alerts for your area."
+      }
+    },
+    "android": {
+      "package": "com.panahon.bagyowatch",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
+    },
+    "web": {
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow PanahON to access your location to provide accurate weather and typhoon alerts."
+        }
+      ]
+    ]
+  }
+}
+
