@@ -205,7 +205,7 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-Developed with ❤️ for the Filipino people
+Developed by Crisvin Habitsuela for the Filipino people
 
 ## ⚠️ Disclaimer
 
