@@ -1,4 +1,4 @@
-# 🌪️ PanahON - BagyoWatch PH
+# 🌪️ PanahON
 
 A comprehensive React Native weather and typhoon tracking app for the Philippines. Stay informed about typhoon conditions, receive real-time alerts, and access essential safety tips.
 
